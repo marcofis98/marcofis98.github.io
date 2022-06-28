@@ -1,0 +1,54 @@
+p {
+    color: red;
+}
+h1 {
+    color: blue;
+    width: 1000px;
+  
+}
+li {
+
+    color: green;
+    
+}
+h2 {
+    color: yellow;
+   
+}
+h1 {
+  font-size: 60px;
+ 
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+h2 {
+  font-size: 40px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+border: 5px solid black;
+}
+html {
+ 
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+ background-color: #3FBF74;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+html {
+  background-color: #00539F;
+}
