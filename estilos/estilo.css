@@ -33,9 +33,7 @@ img {
   margin: 0 auto;
 border: 5px solid black;
 }
-html {
- 
-}
+
 body {
   width: 600px;
   margin: 0 auto;
@@ -51,4 +49,24 @@ h1 {
 }
 html {
   background-color: #00539F;
+}
+#slider{
+  box-shadow: 2px 2px 4px black;
+  overflow: hidden;
+  height: 300px;
+  width: 540px;
+  position: relative;
+}
+
+#slider img{
+  opacity: 0;
+  object-fit: cover;
+  height: 300px;
+  width: 540px;
+  position: absolute;
+  object-fit: cover;
+  transition: opacity 800ms
+}
+#slider img.selected{
+  opacity: 1;
 }
